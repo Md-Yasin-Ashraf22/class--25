@@ -1,0 +1,247 @@
+/* 
+Theme Name: My Web design
+Author Name: Teacher
+version: 1.0
+
+
+
+
+Table Of content
+-------------------
+
+1. Common Css
+2. nav Section 
+3. Banner Section
+4. Food Menu Section
+5. Contact Section
+6. Footer Section
+
+--------------------
+*/
+
+/* common css start */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3.h4.h5.h6,p,span,ol,ul{
+    margin: 0;
+    padding: 0;
+}
+
+a,a:hover{
+    text-decoration: none;
+ }
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control:focus{
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+/* common css end */
+
+/* nav section css start */
+#my_nav{
+    background-color: #F6F0E6;
+    box-shadow: 0 5px 2px -5px black;
+    z-index: 2;
+}
+
+#my_nav .navbar-nav .nav-item{
+    padding-right: 50px;
+}
+#my_nav .navbar-nav .nav-item a{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 10px;
+    transition: all 0.4s linear;
+}
+
+#my_nav .navbar-nav .nav-item a:hover{
+    background-color: #FF7E00;
+}
+/* nav section css end */
+
+/* banner Section Css start */
+#banner{
+    width: 100%;
+    height: 700px;
+    background-color: #F6F0E6;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 5px 2px -5px black;
+}
+
+#banner .img img {
+	position: absolute;
+	top: 100px;
+	left: 412px;
+}
+
+#banner .container .row h1{
+    font-size: 125px;
+    font-weight: bold;
+    color:#FF7E00;
+}
+#banner .container .row .col-lg-6 .test{
+    font-size: 52px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+#banner .container .row p{
+    color: #909090;
+    font-size: 22px;
+}
+
+#banner .container .row .btn{
+    margin-left: 0 ;
+}
+
+#banner .container .row .btn i{
+    background-color: #FF7E00;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    margin: 42px 0 0 16px;
+}
+
+/* banner section css end */
+
+/* food menu css start */
+#food_menu {
+    padding: 50px;
+    background-color: #F6F0E6;
+    
+} 
+h2{
+    padding: 50px;
+    font-weight: bold;
+    font-family: 'Prosto One', cursive;
+}
+#food_menu .row .col-lg-4{
+    margin: auto;
+}
+#food_menu .row .col-lg-4 .overlay{
+    position: relative;
+}
+
+#food_menu .row .col-lg-4 .overlay .overlay-text {
+	position: absolute;
+	left: 308px;
+	right: -12px;
+	top: 126px;
+	padding: 53px 38px;
+	opacity: 0;
+	visibility: hidden;
+    border-radius:0 0 30px;
+    transition: all linear .5s;
+    font-weight: bold;
+}
+
+#food_menu .row .col-lg-4 .overlay:hover .overlay-text{
+    background-color: #786E14;
+    opacity: 1;
+    visibility: visible;
+    padding: 0  10px ;
+}
+
+#food_menu .row .col-lg-4 .overlay:hover .overlay-text span{
+    font-weight: bold;
+}
+#food_menu .row .col-lg-4 .overlay img {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	background-color: #FF7E00;
+	border-radius: 74px 74px 84px 93px;
+	padding: 10px;
+    margin-top: 50px;
+    z-index: 1111;
+
+}
+
+#food_menu .row .col-lg-4 p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+/* food menu csas end */
+
+/* contact css start */
+
+#contact h4{
+    padding: 50px;
+    font-weight: bold;
+    font-family: 'Prosto One', cursive;
+}
+
+#contact .contact_form{
+    background-color: #493C3C;
+}
+#contact .contact_form input:nth-child(1){
+    margin-top: 20px;
+}
+#contact .contact_form input,
+#contact .contact_form textarea{
+    border: none;
+    background: none;
+    text-align: center;
+    font-size: 16px;;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #898989;
+    padding: 14px;
+    margin-bottom: 50px;
+    color: #fff;
+    border-radius: 0;
+    
+    
+
+}
+
+#contact .contact_form textarea{
+    resize: none;
+}
+
+#contact .contact_form input[type="submit"]{
+    background-color: #FF9900;
+    width: 196px;
+    color: #0b1016;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+    border-bottom: none;  
+    transition: all linear .5s; 
+} 
+
+ #contact .contact_form input[type="submit"]:hover{
+    border-radius: 50px;
+} 
+/* contact css end */
+
+
+/* footer css start */
+footer {
+    background-color: #6D1D1D;
+    color: #ffff;
+}
+/* footer css end */

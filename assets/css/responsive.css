@@ -1,0 +1,179 @@
+@media (min-width:992px) and (max-width:1199.98px){
+    #banner .container .row h1 {
+        font-size: 100px;
+    }
+
+    #banner .container .row .col-lg-6 .test {
+        font-size: 45px;
+    }
+    #banner .container .row p {
+        font-size: 20px;
+    }
+    #banner .container .row .btn i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 24px;
+    }
+    #banner .col-lg-6 img {
+        width: 430px;
+        position: absolute;
+        right: 60px;
+        bottom: 39px;
+    }
+    #banner {
+        height: 500px;
+    }
+    #banner .img img {
+        top: 38px;
+        left: 315px;
+    }
+    #food_menu .row .col-lg-4 .overlay .overlay-text {
+        left: 237px;
+        right: -51px;
+       
+    }
+}
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:991.98px){
+    #banner .container .row h1 {
+        font-size: 50px;
+    }
+
+    #banner .container .row .col-lg-6 .test {
+        font-size: 25px;
+    }
+    #banner .container .row p {
+        font-size: 16px;
+    }
+    #banner .container .row .btn i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 24px;
+    }
+
+    #banner .col-lg-6 img {
+        width: 337px;
+        position: absolute;
+        right: 60px;
+        bottom: 39px;
+    }
+    #banner {
+        height: 400px;
+    }
+
+    #banner .img img {
+        top: 35px;
+        left: 185px;
+        width: 100px;
+    }
+
+    #food_menu .row .col-lg-4 .overlay .overlay-text {
+        left: 253px;
+        right: -51px;  
+    }
+
+    h2 {
+        padding: 7px;
+    }   
+}
+
+@media (min-width:576px) and (max-width:767.98px){
+    #banner .container .row h1 {
+        font-size: 46px;
+    }
+
+    #banner .container .row .col-lg-6 .test {
+        font-size: 22px;
+    }
+    #banner .container .row p {
+        font-size: 12px;
+    }
+    #banner .container .row .btn i {
+        width: 31px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 18px;
+    }
+
+    #banner .col-lg-6 img {
+        width: 286px;
+        position: absolute;
+        right: 10px;
+        bottom: 55px;
+    }
+    #banner {
+        height: 400px;
+    }
+
+    #banner .img img {
+        top: 48px;
+        left: 166px;
+        width: 95px;
+    }
+
+    h2 {
+        padding: 0px;
+    }
+
+    #food_menu .row .col-lg-4 .overlay .overlay-text {
+        position: absolute;
+        left: 325px;
+        right: -12px;
+        top: 126px;
+        padding: 53px 38px;
+   
+    }
+}
+
+@media  (max-width:575.98px){
+    #banner .container .row h1 {
+        font-size: 50px;
+    }
+
+    #banner .container .row .col-lg-6 .test {
+        font-size: 20px;
+    }
+
+    #banner .container .row p {
+        font-size: 14px;
+    }
+
+    #banner .container .row .btn i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 25px;
+    }
+
+    #banner .col-lg-6 img {
+   display: none;
+    }
+    #banner {
+        height: 250px;
+    }
+
+    h2 {
+        padding: 0px;
+    }
+
+    #food_menu .row .col-lg-4 .overlay img {
+        width: 150px;
+        height: 145px;
+        padding: 12px;
+    }
+
+    #food_menu .row .col-lg-4 .overlay .overlay-text {
+        position: absolute;
+        left: 173px;
+        right: -60px;
+        top: 108px;
+        font-size: 12px;
+    }
+}
